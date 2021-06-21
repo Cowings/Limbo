@@ -49,6 +49,7 @@ public class NetworkManager
         this.keepAliveId = 0;
 
         this.protocols.add(new HandshakeProtocol(this));
+        this.protocols.add(new Protocol5(this));
         this.protocols.add(new Protocol47(this));
         this.protocols.add(new Protocol107(this));
         this.protocols.add(new Protocol108(this));
