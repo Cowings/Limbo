@@ -14,6 +14,7 @@ Config file to modify server properties.
 
 ## Supported protocols
 
+- 1.7.x (5) (Note: world does not load on this version)
 - 1.8.X (47)
 - 1.9 (107)
 - 1.9.1 (108)
